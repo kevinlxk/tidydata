@@ -1,7 +1,12 @@
 ## Codebook for Course Project
 
+# ID Variables: Variables
+
 "id" - unique identifier for each subject
 "activity" - activity name: WALKINK, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+# The following variables gives the AVERAGES of the mean and standard deviations of each of the measures across the same activity by the same individual.
+
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
