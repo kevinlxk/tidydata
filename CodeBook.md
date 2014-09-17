@@ -1,11 +1,15 @@
 ## Codebook for Course Project
 
-# ID Variables: Variables
+# ID Variables
+
+These are variables that uniquely identify each observation in the dataset
 
 "id" - unique identifier for each subject
 "activity" - activity name: WALKINK, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-# The following variables gives the AVERAGES of the mean and standard deviations of each of the measures across the same activity by the same individual.
+# Measure Variables
+
+The following variables gives the AVERAGES of the mean and standard deviations of each of the measures across the same activity by the same individual.
 
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
