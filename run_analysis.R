@@ -1,6 +1,10 @@
 ## After unzipping the data file, rename the folder ''UCI HAR Dataset' as 'dataset'
 ## Run this R script 
 
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "data.zip", method = "curl")
+unzip("data.zip")
+file.rename("UCI HAR Dataset", "dataset")
+
 ## Reading of the data in test dataset
 xtest <- read.table("dataset/test/X_test.txt")
 ytest <- read.table("dataset/test/y_test.txt")
